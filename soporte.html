@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>ABPLUSS</title>
+
+  <!-- Bootstrap -->
+  <link href="css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="css/animate.css">
+  <link rel="stylesheet" href="css/font-awesome.min.css">
+  <link rel="stylesheet" href="css/font-awesome.css">
+  <link rel="stylesheet" href="css/all.min.css">
+  <link rel="stylesheet" href="css/jquery.bxslider.css">
+  <link rel="stylesheet" type="text/css" href="css/normalize.css" />
+  <link rel="stylesheet" type="text/css" href="css/demo.css" />
+  <link rel="stylesheet" type="text/css" href="css/set1.css" />
+  <link href="css/overwrite.css" rel="stylesheet">
+  <link href="css/style.css" rel="stylesheet">
+
+</head>
+
+<body>
+  <nav class="navbar navbar-default navbar-fixed-top" role="navigation">
+    <div class="container">
+      <!-- Brand and toggle get grouped for better mobile display -->
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target=".navbar-collapse.collapse">
+					<span class="sr-only">Toggle navigation</span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+				</button>
+        <a class="navbar-brand" href="index.html"><span><b>ABPLUSS</b></span></a>
+      </div>
+      <div class="navbar-collapse collapse">
+        <div class="menu">
+          <ul class="nav nav-tabs" role="tablist">
+            <li role="presentation"><a href="index.html">Inicio</a></li>
+            <li role="presentation"><a href="servicios.html">Servicios</a></li>
+            <li role="presentation"><a href="opiniones.html">Opiniones</a></li>
+            <li role="presentation"><a href="descargar.html">Descargar</a></li>
+            <li role="presentation" class="soporte"><a href="contact.html">Soporte</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </nav>
+
+  <div class="map">
+  </div>
+
+  <section id="contact-page">
+    <div class="container">
+      <div class="center">
+        <br><br><h2>¿Problemas con ABPLUSS?</h2>
+        <p>Ingresa tus datos y nos comunicaremos contigo lo más pronto posible.</p>
+      </div>
+      <div class="row contact-wrap">
+        <div class="col-md-8 col-md-offset-2">
+          <div id="sendmessage">Tu mensaje ha sido enviado, Gracias.</div>
+          <div id="errormessage"></div>
+          <form action="" method="post" role="form" class="contactForm">
+            <div class="form-group">
+              <input type="text" name="name" class="form-control" id="name" placeholder="Nombre" data-rule="minlen:4" data-msg="Please enter at least 4 chars" />
+              <div class="validation"></div>
+            </div>
+            <div class="form-group">
+              <input type="email" class="form-control" name="email" id="email" placeholder="Correo" data-rule="email" data-msg="Please enter a valid email" />
+              <div class="validation"></div>
+            </div>
+            <div class="form-group">
+              <input type="text" class="form-control" name="subject" id="subject" placeholder="Asunto" data-rule="minlen:4" data-msg="Please enter at least 8 chars of subject" />
+              <div class="validation"></div>
+            </div>
+            <div class="form-group">
+              <textarea class="form-control" name="message" rows="5" data-rule="required" data-msg="Please write something for us" placeholder="Detalle del problema"></textarea>
+              <div class="validation"></div>
+            </div>
+
+            <div class="text-center"><button type="submit" class="btn btn-primary btn-lg">Enviar</button></div>
+          </form>
+        </div>
+      </div>
+      <!--/.row-->
+    </div>
+    <!--/.container-->
+  </section>
+  <!--/#contact-page-->
+
+  <footer>
+
+    <div class="container">
+      <div class="row">
+        <div class="box">
+          <div class="col-md-4">
+            <div class="wow bounceIn" data-wow-offset="0" data-wow-delay="0.4s">
+              <hr><h4>Misión</h4>
+              <div class="icon">
+                <i class="fa fa-heart-o fa-3x"></i>
+              </div>
+              <p>Ayudar a personas con problemas jurídicos a encontrar abogados confiables de manera rápida y segura.</p>
+            </div>
+          </div>
+
+          <div class="col-md-4">
+            <div class="wow bounceIn" data-wow-offset="0" data-wow-delay="1.0s">
+              <hr><h4>Nosotros</h4>
+              <div class="icon">
+                <i class="fa fa-desktop fa-3x"></i>
+              </div>
+              <p>Somos una plataforma que busca mejorar la comunicación entre usuario y abogado para brindar un servicio de calidad.</p>
+            </div>
+          </div>
+
+          <div class="col-md-4">
+            <div class="wow bounceIn" data-wow-offset="0" data-wow-delay="1.6s">
+              <hr><h4>Visión</h4>
+              <div class="icon">
+                <i class="fa fa-location-arrow fa-3x"></i>
+              </div>
+              <p>Ser la mejor app para gestión jurídica, así como brindar un servicio de calidad conforme a la necesidad de cada usuario con respecto a abogados.</p>
+            </div>
+
+          </div>
+
+        </div>
+      </div>
+    </div>
+
+    <div class="last-div">
+      <div class="container">
+        <div class="row">
+          <div class="copyright">
+            <a href="https://www.upc.edu.pe/">Universidad Peruana de Ciencias Aplicadas</a>
+            <div class="credits">
+              Ingeniería de Sistemas y Sotfware
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="container">
+        <div class="row">
+          <ul class="social-network">
+            <li><a href="#" data-placement="top" title="Facebook"><i class="fa fa-facebook fa-1x"></i></a></li>
+            <li><a href="#" data-placement="top" title="Twitter"><i class="fa fa-twitter fa-1x"></i></a></li>
+            <li><a href="#" data-placement="top" title="Linkedin"><i class="fa fa-linkedin fa-1x"></i></a></li>
+            <li><a href="#" data-placement="top" title="Google plus"><i class="fa fa-google-plus fa-1x"></i></a></li>
+          </ul>
+        </div>
+      </div>
+      <a href="" class="scrollup"><i class="fa fa-chevron-up"></i></a>
+    </div>
+  </footer>
+</footer>
+
+
+</body>
+
+</html>
